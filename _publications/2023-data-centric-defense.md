@@ -5,7 +5,8 @@ date: 2023-08-14
 authors: Nikhil Abhyankar
 venue: Virginia Tech
 paperurl: 'https://vtechworks.lib.vt.edu/bitstream/handle/10919/116036/Abhyankar_NS_T_2023.pdf?sequence=1'
-venuetype: thesis
+venueurl: 'https://vtechworks.lib.vt.edu/handle/10919/5534'
+venuetype: conference
 ---
 <!-- ---
 title: "Under the Roof of Rebels: Civilian Targeting After Territorial Takeover in Sierra Leone"

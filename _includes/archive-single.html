@@ -44,6 +44,8 @@
         {% elsif post.collection == 'publications' %}
             {% if post.venuetype == 'conference' %}
             {{ post.authors }}. <a href="{{ post.venueurl }}">{{ post.venue }}</a>
+            {% elsif post.venuetype == 'thesis' %}
+            {{ post.authors }}. <a href="{{ post.venueurl }}">{{ post.venue }}</a>
             {% elsif post.venuetype == 'journal' %}
             {{ post.authors }}. <a href="{{ post.venueurl }}">{{ post.venue }}</a>, {{ post.date | default: "1900-01-01" | date: "%B %Y" }}
             {% endif %}
@@ -53,6 +55,13 @@
             {% else %}
             {{ post.authors }}. {{ post.date | default: "1900-01-01" | date: "%Y" }}
             {% endif %}
+        {% endif %}
+
+        {% if post.code %}
+        <a href="{{ post.code }}"><i class="fas fa-fw fa-code zoom" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if post.github %}
+        <a href="{{ post.github }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a>
         {% endif %}
 
         {% if post.video %}

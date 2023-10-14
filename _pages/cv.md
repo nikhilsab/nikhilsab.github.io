@@ -7,6 +7,22 @@ redirect_from:
   - /resume
 ---
 
-<iframe src="/files/pdf/Williams CV.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+Education
+======
+* B.Tech. in Electronics Engineering, Veermata Jijabai Technological Institute, 2020
+* M.S. in Electrical and Computer Engineering, Virginia Tech, 2023
+* Ph.D in Computer Science, Virginia Tech, 2028 (expected)
 
-You can download a PDF copy of my CV [here](/files/pdf/Williams CV.pdf).
+<!-- Work experience
+======
+### **Micron Technology,Inc**
+* Machine Learning Intern – Smart Manufacturing and AI
+  * Supervisor: Nitish Dhakal -->
+
+  
+Skills
+======
+* Python
+* Google Cloud
+* PyTorch
+* Tensorflow

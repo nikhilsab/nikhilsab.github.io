@@ -15,19 +15,19 @@ Education
 
 Work experience
 ======
-* ### **Micron Technology,Inc** \\
+* ### **Micron Technology,Inc** 
   Machine Learning Intern – Smart Manufacturing and AI \\
-  Spring 2022, Summer 2022 \\ 
-  Supervisor: Nitish Dhakal \\
+  Spring 2022, Summer 2022 \\
+  Supervisor: Nitish Dhakal
 
-* ### **Virginia Tech** \\
+* ### **Virginia Tech**
   Graduate Teaching Assistant (ECE 2714) \\
-  Spring 2021, Fall 2021
-  Supervisor: Dr.Mary Lanzerotti \\
+  Spring 2021, Fall 2021 \\
+  Supervisor: Dr.Mary Lanzerotti
 
   Graduate Teaching Assistant (ECE 2714) \\
   Summer 2021 \\
-  Supervisor: Dr.Arthur Ball \\
+  Supervisor: Dr.Arthur Ball 
 
   
 Skills

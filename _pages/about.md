@@ -10,7 +10,7 @@ redirect_from:
 
 I’m a first year Computer Science Ph.D. student at Virginia Tech advised by Dr. Chandan Reddy. My research insterests span over a broad spectrum of Natural Language Processing and Computer Vision with a focus on machine learing privacy and security. My current research primarily centers on delving into the realm of Natural Language Processing, with a particular emphasis on its diverse applications, including tabular data analysis and symbolic regression.
 
-My academic journey traces back to my Bachelor's in Electronics Engineering from VJTI, Mumbai. My undergraduate thesis dedicated to the exploration of Deepfake Detection, led me to join Virginia Tech for the Masters program. During my Master's program, I collaborated on projects on machine learning privacy with my advisor [Dr.Ruoxi Jia](https://ruoxijia.info/). 
+My academic journey traces back to my Bachelor's in Electronics Engineering from VJTI, Mumbai. My undergraduate thesis dedicated to the exploration of Deepfake Detection, led me to join Virginia Tech for the Masters program. During my Master's program, I collaborated on projects on machine learning privacy with my advisor [Dr. Ruoxi Jia](https://ruoxijia.info/). 
 
 News
 =====

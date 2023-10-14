@@ -78,16 +78,14 @@ analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom", "goatcounter"
   google:
     tracking_id          : 
-  goatcounter:
-    code		 : jayrobwilliams
 
 
 # Site Author
 author:
   name             : "Nikhil Abhyankar"
   avatar           : #"profile.png"
-  bio              : #"Data Scientist"
-  location         :
+  bio              : "Ph.D. student"
+  location         : "Blacksburg, VA"
   employer         :
   pubmed           :
   orcid            : #"http://orcid.org/0000-0001-9259-3883"
@@ -108,7 +106,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "nikhil-abhyankar"
   mastodon         : #"fosstodon.org/@jayrobw"
   pinterest        :
   soundcloud       :
@@ -260,7 +258,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

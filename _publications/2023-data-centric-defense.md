@@ -1,8 +1,8 @@
 ---
 title: "Data Centric Defenses for Privacy Attacks"
 collection: publications
-permmalink: /publication/2023-data-centric-defense
 date: 2023-08-14
+authors: Nikhil Abhyankar
 venue: Virginia Tech
 paperurl: 'https://vtechworks.lib.vt.edu/bitstream/handle/10919/116036/Abhyankar_NS_T_2023.pdf?sequence=1'
 venuetype: thesis

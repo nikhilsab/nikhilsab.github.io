@@ -15,23 +15,24 @@ Education
 
 Work experience
 ======
+* ### **Amazon.Inc** 
+  Applied Scientist Intern – II\\
+  Summer 2024 \\
+
 * ### **Micron Technology,Inc** 
-  Machine Learning Intern – Smart Manufacturing and AI\\
-  Spring 2022, Summer 2022\\
+  Machine Learning Intern – Smart Manufacturing and AI \\
+  Spring 2022, Summer 2022 \\
 
 * ### **Virginia Tech**
-  Graduate Teaching Assistant\\
-  Social Media Analytics (CS 5664): Fall 2024\\
-
-  Research Assistant\\
-  Responsible Data Science (ReDS) Lab\\
-
-  Graduate Teaching Assistant\\
-  Signals and Systems (ECE 2714): Spring 2021, Summer 2021 and Fall 2021\\
+  Graduate Teaching Assistant \\
+  Social Media Analytics (CS 5664): Fall 2024 \\
+  Signals and Systems (ECE 2714): Spring 2021, Summer 2021 and Fall 2021 \\
+  
+  Research Assistant \\
+  Responsible Data Science (ReDS) Lab \\
   
 Skills
 ======
-* Google Cloud
-* PyTorch
-* Tensorflow
+* Google Cloud, AWS
+* PyTorch, Tensorflow
 * HuggingFace

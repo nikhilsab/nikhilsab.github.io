@@ -16,19 +16,19 @@ Education
 Work experience
 ======
 * ### **Amazon.Inc** 
-  Applied Scientist Intern – II
+  Applied Scientist Intern – II \
   Summer 2024
 
 * ### **Micron Technology,Inc** 
-  Machine Learning Intern – Smart Manufacturing and AI
+  Machine Learning Intern – Smart Manufacturing and AI \
   Spring 2022, Summer 2022
 
 * ### **Virginia Tech**
-  Graduate Teaching Assistant
-  Social Media Analytics (CS 5664): Spring 2024 
+  Graduate Teaching Assistant \
+  Social Media Analytics (CS 5664): Spring 2024 \
   Signals and Systems (ECE 2714): Spring, Summer 2021, Fall 2021 
 
-  Research Assistant
+  Research Assistant \
   Responsible Data Science (ReDS) Lab
   
 Skills

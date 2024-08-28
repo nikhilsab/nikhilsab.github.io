@@ -9,7 +9,7 @@ redirect_from:
 {% include base_path %}
 Education
 ======
-* Ph.D, Computer Science, Virginia Tech, 2028 (expected)
+* Ph.D, Computer Science, Virginia Tech, 2027 (expected)
 * M.S., Electrical and Computer Engineering, Virginia Tech, 2023
 * B.Tech., Electronics Engineering, VJTI, 2020
 
@@ -24,7 +24,7 @@ Work experience
   *Spring 2022, Summer 2022*
 
 * ### **Virginia Tech**
-  **Graduate Teaching Assistant** \
+  **Graduate Teaching Assistant**
   * Machine Learning - 1 (CS 5805): Fall 2024
   * Social Media Analytics (CS 5664): Spring 2024
   * Signals and Systems (ECE 2714): Spring, Summer 2021, Fall 2021 
@@ -38,5 +38,5 @@ Work experience
 Skills
 ======
 * Google Cloud, AWS
-* PyTorch, Tensorflow
+* PyTorch, Tensorflow, Keras
 * HuggingFace

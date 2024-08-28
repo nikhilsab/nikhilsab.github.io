@@ -15,24 +15,25 @@ Education
 
 Work experience
 ======
-* ### **Amazon.Inc** 
+* ### **Amazon.com, Inc** 
   Applied Scientist Intern - People eXperience and Technology (PXT) \
-  Summer 2024
+  *Summer 2024*
 
-* ### **Micron Technology,Inc** 
+* ### **Micron Technology, Inc** 
   Machine Learning Intern – Smart Manufacturing and AI \
-  Spring 2022, Summer 2022
+  *Spring 2022, Summer 2022*
 
 * ### **Virginia Tech**
   **Graduate Teaching Assistant** \
-  *Social Media Analytics (CS 5664): Spring 2024* \
-  *Signals and Systems (ECE 2714): Spring, Summer 2021, Fall 2021* 
+  * Machine Learning - 1 (CS 5805): Fall 2024
+  * Social Media Analytics (CS 5664): Spring 2024
+  * Signals and Systems (ECE 2714): Spring, Summer 2021, Fall 2021 
 
   **Research Assistant**
   * Responsible Data Science (ReDS) Lab
     *Advisor: Rouxi Jia*
   * Reddy AI Lab 
-    *Advisor: Rouxi Jia*
+    *Advisor: Chandan K. Reddy*
   
 Skills
 ======

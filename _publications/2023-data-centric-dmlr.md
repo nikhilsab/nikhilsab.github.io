@@ -3,8 +3,8 @@ title: "Data-Centric Defense: Shaping Loss Landscape with Augmentations to Count
 collection: publications
 date: 2023-07-17
 authors: Si Chen, Feiyang Kang, Nikhil Abhyankar, Ming Jin, Ruoxi Jia
-venue: Data Centric Machine Learning (DMLR) at ICML 2023
-paperurl: "https://dmlr.ai/assets/accepted-papers/47/CameraReady/poi4mi___extended_abstract.pdf"
-venureurl: "https://icml.cc/virtual/2023/workshop/21492"
-venuetype: conference
+venue: Transactions on Machine Learning Research
+paperurl: "https://openreview.net/pdf?id=r8wXaLJBIS"
+venureurl: "https://jmlr.org/tmlr/"
+venuetype: journal
 ---

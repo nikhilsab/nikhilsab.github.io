@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m a second year Computer Science Ph.D. student at Virginia Tech advised by [Dr. Chandan Reddy](https://people.cs.vt.edu/reddy/). My current research primarily centers on delving into the realm of Large Language Models, with a particular emphasis on its diverse applications, including tabular data analysis and symbolic regression.
+I’m a second year Computer Science Ph.D. student at Virginia Tech advised by [Dr. Chandan Reddy](https://creddy.net/). My current research primarily centers on delving into the realm of Large Language Models, with a particular emphasis on its diverse applications, including tabular data reasoning and code generation.
 
 My academic journey traces back to my Bachelor's in Electronics Engineering from VJTI, Mumbai. My undergraduate thesis dedicated to the exploration of Deepfake Detection, led me to join Virginia Tech for the Masters program. During my Master's program, I collaborated on projects on machine learning privacy with my advisor [Dr. Ruoxi Jia](https://reds-lab.github.io/#/). 
 
@@ -20,7 +20,8 @@ My research interests are in artificial intelligence, with a particular focus on
 
 News
 =====
+* **Jan 2025:** Our work "H-STAR" got accepted in NAACL 2025
+* **Nov 2024:** Our paper "Data-Centric Defense" got accepted in TMLR!
 * **May 2024:** I'm thrilled to start my internship at [Amazon Science](https://www.amazon.science/) this summer!
 * **Aug 2023:** Started my Ph.D in Computer Science, Virginia Tech
-* **Jul 2023:** Our paper got accepted to DMLR workshop at ICML 2023
 * **Jul 2023:** Defended my Masters defense titled 'Data Centric Defenses for Privacy Attacks'

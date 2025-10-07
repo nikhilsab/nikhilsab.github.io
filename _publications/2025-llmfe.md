@@ -1,5 +1,5 @@
 ---
-title: "H-STAR: LLM-driven Hybrid SQL-Text Adaptive Reasoning on Tables"
+title: "LLM-FE: Automated Feature Engineering for Tabular Data with LLMs as Evolutionary Optimizers"
 collection: publications
 date: 2025-03-18
 authors: Nikhil Abhyankar, Parshin Shojaee, Chandan K. Reddy

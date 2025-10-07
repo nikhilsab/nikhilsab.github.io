@@ -17,7 +17,7 @@ Work experience
 ======
 * ### **Amazon.com, Inc** 
   Applied Scientist Intern - People eXperience and Technology (PXT) \
-  *Summer 2024*
+  *Summer 2025, Summer 2024*
 
 * ### **Micron Technology, Inc** 
   Machine Learning Intern – Smart Manufacturing and AI \
@@ -25,6 +25,7 @@ Work experience
 
 * ### **Virginia Tech**
   **Graduate Teaching Assistant**
+  * Intro to Deep Learning (CS 5814): Fall 2025
   * Machine Learning - 1 (CS 5805): Fall 2024
   * Machine Learning (CS 4824): Spring 2025
   * Social Media Analytics (CS 5664): Spring 2024

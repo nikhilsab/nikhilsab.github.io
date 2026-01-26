@@ -35,11 +35,11 @@ Work experience
 
 * ### **Virginia Tech**
 
-  * #### Responsible Data Science (ReDS) Lab
-    *Advisor: Rouxi Jia*
-  
-  * #### Reddy AI Lab
+  * ### Reddy AI Lab
     *Advisor: Chandan K. Reddy*
+
+  * ### Responsible Data Science (ReDS) Lab
+    *Advisor: Rouxi Jia*
   
 Skills
 ======

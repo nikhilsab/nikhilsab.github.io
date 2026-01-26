@@ -25,7 +25,7 @@ Work experience
 
 * ### **VJTI, Mumbai**
   Research Intern \
-  Advisor: [Dr. Rohin Daruwala](https://in.linkedin.com/in/rddaruwala)
+  Advisor: [Dr. Rohin Daruwala](https://in.linkedin.com/in/rddaruwala) \
   *Summer 2019*
 
 * ### **IIT-Bombay**
@@ -33,12 +33,12 @@ Work experience
   Advisor: [Dr. Virendra Singh](https://www.ee.iitb.ac.in/web/people/virendra-singh/) \
   *Summer 2018* 
 
-  **Research Assistant**
-  * Responsible Data Science (ReDS) Lab
+* ### **Virginia Tech**
 
+  * #### Responsible Data Science (ReDS) Lab
     *Advisor: Rouxi Jia*
-  * Reddy AI Lab 
-
+  
+  * #### Reddy AI Lab
     *Advisor: Chandan K. Reddy*
   
 Skills

@@ -24,8 +24,8 @@ My research focuses on making LLM-based systems reliable for decision-making ove
 
 News
 =====
-* **Jan 2026:** Our work "LLEMA" got accepted in ICLR 2026
+* **Jan 2026:** Our work "**LLEMA**" got accepted in ICLR 2026
 * **May 2025:** I'm thrilled to return to [Amazon Science](https://www.amazon.science/) for an internship this summer!
-* **Jan 2025:** Our work "H-STAR" got accepted in NAACL 2025, Main Conference
-* **Nov 2024:** Our paper "Data-Centric Defense" got accepted in TMLR!
+* **Jan 2025:** Our work "**H-STAR**" got accepted in NAACL 2025, Main Conference
+* **Nov 2024:** Our paper "**Data-Centric Defense**" got accepted in TMLR!
 * **May 2024:** I'm thrilled to start my internship at [Amazon Science](https://www.amazon.science/) this summer!

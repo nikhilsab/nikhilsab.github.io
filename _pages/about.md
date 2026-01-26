@@ -16,9 +16,11 @@ I have been fortunate to collaborate with and receive mentorship from outstandin
 
 Research Interests
 =====
-My research interests are in artificial intelligence, with a particular focus on Agentic AI, Large Language Models, and AI4Science. I aim to advance the capabilities and comprehension of these technologies. I have an experience of working on:
-* Enhancing the capabilities of Large Language Models on complex tasks like code generation, tabular reasoning and scientific discovery
-* Implementing data-centric techniques to protect data and improve the machine learning model performance of downstream tasks
+My research focuses on making LLM-based systems reliable for decision-making over structured data and scientific workflows. I work at the intersection of LLM reasoning, tabular/structured data, and AI4Science, with an emphasis on building methods and benchmarks that expose real failure modes and improve end-to-end performance. I have experience in:
+
+* **LLM reasoning over structured data**, including methods that improve performance on complex reasoning tasks and downstream predictive modeling
+* **Agentic and tool-augmented AI** systems that decompose problems, coordinate multiple steps, and interact with external tools to support learning and discovery
+* **AI4Science**, where agentic LLM systems are used to assist scientific exploration, hypothesis generation, and data-driven discovery
 
 News
 =====

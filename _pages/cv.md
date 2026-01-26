@@ -23,14 +23,15 @@ Work experience
   Machine Learning Intern – Smart Manufacturing and AI \
   *Spring 2022, Summer 2022*
 
-* ### **Virginia Tech**
-  **Graduate Teaching Assistant**
-  * Natural Language Processing (CS 5624): Spring 2026
-  * Intro to Deep Learning (CS 5814): Fall 2025
-  * Machine Learning - 1 (CS 5805): Fall 2024
-  * Machine Learning (CS 4824): Spring 2025
-  * Social Media Analytics (CS 5664): Spring 2024
-  * Signals and Systems (ECE 2714): Spring, Summer 2021, Fall 2021 
+* ### **VJTI, Mumbai**
+  Research Intern \
+  Advisor: [Dr. Rohin Daruwala](https://in.linkedin.com/in/rddaruwala)
+  *Summer 2019*
+
+* ### **IIT-Bombay**
+  Research Intern \
+  Advisor: [Dr. Virendra Singh](https://www.ee.iitb.ac.in/web/people/virendra-singh/) \
+  *Summer 2018* 
 
   **Research Assistant**
   * Responsible Data Science (ReDS) Lab

@@ -25,6 +25,7 @@ Work experience
 
 * ### **Virginia Tech**
   **Graduate Teaching Assistant**
+  * Natural Language Processing (CS 5624): Spring 2026
   * Intro to Deep Learning (CS 5814): Fall 2025
   * Machine Learning - 1 (CS 5805): Fall 2024
   * Machine Learning (CS 4824): Spring 2025

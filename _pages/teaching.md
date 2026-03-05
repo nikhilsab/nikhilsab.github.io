@@ -20,4 +20,5 @@ author_profile: false
     Spring 2021, Summer 2021, Fall 2021; Dr. Mary Lanzerotti, Dr. Arthur Ball
 
 * ### **Services**
-  * **Conference Reviewer:** COLING 2025, ARR July 2025, ARR October 2025    
+  * **Conference Reviewer:** COLING 2025, ARR July 2025, ARR October 2025 
+  * **Workshop Reviewer:** ICLR 2026 Workshop on AI with Recursive Self-Improvement 

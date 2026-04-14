@@ -24,8 +24,9 @@ My research focuses on making LLM-based systems reliable for decision-making ove
 
 News
 =====
+* **Apr 2026:** Our work "**LLM-FE**" got accepted in [TMLR](https://jmlr.org/tmlr/index.html)!
 * **Mar 2026:** Our work "**LLM-FE**" got accepted in ICLR 2026 Workshop on AI with Recursive Self-Improvement and ICLR 2026 Workshop on Logical Reasoning of LLMs
-* **Jan 2026:** Our work "**LLEMA**" got accepted in ICLR 2026
+* **Jan 2026:** Our work "**LLEMA**" got accepted in [ICLR 2026](https://iclr.cc/virtual/2026/poster/10009327)
 * **May 2025:** I'm thrilled to return to [Amazon Science](https://www.amazon.science/) for an internship this summer!
 * **Jan 2025:** Our work "**H-STAR**" got accepted in NAACL 2025, Main Conference
 * **Nov 2024:** Our paper "**Data-Centric Defense**" got accepted in TMLR!

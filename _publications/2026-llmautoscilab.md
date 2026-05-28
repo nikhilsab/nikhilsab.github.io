@@ -1,7 +1,7 @@
 ---
 title: "LLM-AutoSciLab: Closed-Loop Scientific Discovery via Active Experimentation with LLMs"
 collection: publications
-date: 2026-21-5
+date: 2026-05-21
 authors: Sanchit Kabra, Nikhil Abhyankar, Saaketh Desai, Prasad Iyer, Chandan K Reddy
 venue: Arxiv
 github: 'https://github.com/scientific-discovery/LLM-AutoSciLab'

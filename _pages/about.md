@@ -24,6 +24,7 @@ My research focuses on making LLM-based systems reliable for decision-making ove
 
 News
 =====
+* **Jun 2026:** Our latest works on active scientific discovery "**LLM-AutoSciLab**" and "**LLM-ACES**" are public on Arxiv!
 * **Apr 2026:** Our work "**LLM-FE**" got accepted in [TMLR](https://jmlr.org/tmlr/index.html)!
 * **Mar 2026:** Our work "**LLM-FE**" got accepted in ICLR 2026 Workshop on AI with Recursive Self-Improvement and ICLR 2026 Workshop on Logical Reasoning of LLMs
 * **Jan 2026:** Our work "**LLEMA**" got accepted in [ICLR 2026](https://iclr.cc/virtual/2026/poster/10009327)

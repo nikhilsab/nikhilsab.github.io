@@ -12,7 +12,7 @@ I’m a final year Computer Science Ph.D. student at Virginia Tech advised by [D
 
 My academic journey traces back to my Bachelor's in Electronics Engineering from VJTI, Mumbai. My undergraduate thesis dedicated to the exploration of Deepfake Detection, led me to join Virginia Tech for the Masters program in Computer Engineering. During my Master's program, I collaborated on projects on machine learning privacy with my advisor [Dr. Ruoxi Jia](https://reds-lab.github.io/#/).
 
-I have been fortunate to collaborate with and receive mentorship from outstanding researchers such as [Dr. Chandan Reddy](https://creddy.net/) (VT), [Dr. Ruoxi Jia](https://reds-lab.github.io/#/) (VT), [Dr. Dan Roth](https://www.cis.upenn.edu/~danroth/) (UPenn), [Dr. Vivek Gupta](https://vgupta123.github.io/) (ASU), [Saaketh Desai](https://www.linkedin.com/in/saaketh-desai) (Sandia Labs), and [Parshin Shojaee](https://parshinsh.github.io/) (Apple) whose guidance has significantly shaped my research journey.
+I have been fortunate to collaborate with and receive mentorship from outstanding researchers such as [Chandan Reddy](https://creddy.net/) (VT), [Ruoxi Jia](https://reds-lab.github.io/#/) (VT), [Naren Ramakrishnan](https://iac.vt.edu/about/faculty/ramakrishnan-naren.html) (VT) [Dan Roth](https://www.cis.upenn.edu/~danroth/) (UPenn), [Vivek Gupta](https://vgupta123.github.io/) (ASU), [Saaketh Desai](https://www.linkedin.com/in/saaketh-desai) (Sandia Labs), and [Parshin Shojaee](https://parshinsh.github.io/) (Apple) whose guidance has significantly shaped my research journey.
 
 Research Interests
 =====
@@ -24,7 +24,7 @@ My research focuses on making LLM-based systems reliable for decision-making ove
 
 News
 =====
-* **Jun 2026:** Our latest works on active scientific discovery "**LLM-AutoSciLab**" and "**LLM-ACES**" are public on Arxiv!
+* **Jun 2026:** Our latest works "**LLM-AutoSciLab**" and "**LLM-ACES**" are now public on Arxiv!
 * **Apr 2026:** Our work "**LLM-FE**" got accepted in [TMLR](https://jmlr.org/tmlr/index.html)!
 * **Mar 2026:** Our work "**LLM-FE**" got accepted in ICLR 2026 Workshop on AI with Recursive Self-Improvement and ICLR 2026 Workshop on Logical Reasoning of LLMs
 * **Jan 2026:** Our work "**LLEMA**" got accepted in [ICLR 2026](https://iclr.cc/virtual/2026/poster/10009327)

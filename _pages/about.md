@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I’m a third year Computer Science Ph.D. student at Virginia Tech advised by [Dr. Chandan Reddy](https://creddy.net/). My current research primarily centers on delving into the realm of Large Language Models, with a particular emphasis on its diverse applications, including tabular data reasoning, scientific discovery and material discovery.
+I’m a final year Computer Science Ph.D. student at Virginia Tech advised by [Dr. Chandan Reddy](https://creddy.net/). My current research primarily centers on delving into the realm of Large Language Models, with a particular emphasis on its diverse applications, including tabular data reasoning, scientific discovery and material discovery.
 
 My academic journey traces back to my Bachelor's in Electronics Engineering from VJTI, Mumbai. My undergraduate thesis dedicated to the exploration of Deepfake Detection, led me to join Virginia Tech for the Masters program in Computer Engineering. During my Master's program, I collaborated on projects on machine learning privacy with my advisor [Dr. Ruoxi Jia](https://reds-lab.github.io/#/).
 
-I have been fortunate to collaborate with and receive mentorship from outstanding researchers such as [Dr. Chandan Reddy](https://creddy.net/), [Dr. Ruoxi Jia](https://reds-lab.github.io/#/), [Dr. Dan Roth](https://www.cis.upenn.edu/~danroth/), [Dr. Vivek Gupta](https://vgupta123.github.io/), and [Parshin Shojaee](https://parshinsh.github.io/) whose guidance has significantly shaped my research journey.
+I have been fortunate to collaborate with and receive mentorship from outstanding researchers such as [Dr. Chandan Reddy](https://creddy.net/) (VT), [Dr. Ruoxi Jia](https://reds-lab.github.io/#/) (VT), [Dr. Dan Roth](https://www.cis.upenn.edu/~danroth/) (UPenn), [Dr. Vivek Gupta](https://vgupta123.github.io/) (ASU), [Saaketh Desai](https://www.linkedin.com/in/saaketh-desai) (Sandia Labs), and [Parshin Shojaee](https://parshinsh.github.io/) (Apple) whose guidance has significantly shaped my research journey.
 
 Research Interests
 =====

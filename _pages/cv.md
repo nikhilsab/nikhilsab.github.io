@@ -36,9 +36,11 @@ Work experience
 * ### **Virginia Tech**
 
   * ### Reddy AI Lab
+    Graduate Research Assistant \
     *Advisor: Chandan K. Reddy*
 
   * ### Responsible Data Science (ReDS) Lab
+    Graduate Research Assistant \
     *Advisor: Rouxi Jia*
   
 Skills

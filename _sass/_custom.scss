@@ -738,3 +738,33 @@ button:focus-visible {
     font-weight: 500;
   }
 }
+
+
+/*
+   CV skills: group names in a column, tools beside them
+   ========================================================================== */
+
+#skills + ul {
+  padding-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: 0.7em;
+
+    > strong:first-child {
+      color: $text-color;
+    }
+
+    /* wide screens only; narrower ones keep the name inline with the tools */
+    @include breakpoint($x-large) {
+      display: grid;
+      grid-template-columns: 17.5em 1fr;
+      column-gap: 1.25em;
+      margin-bottom: 0.55em;
+
+      > strong:first-child {
+        white-space: nowrap;
+      }
+    }
+  }
+}

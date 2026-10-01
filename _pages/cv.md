@@ -50,8 +50,8 @@ skills:
   - group: "LLMs"
     items: ["OpenAI", "Claude", "Gemini", "AWS Bedrock", "Qwen", "DeepSeek"]
   - group: "Optimization & Decision-Making"
-    items: ["Evolutionary Search", "Monte Carlo Tree Search", "Reinforcement Learning", "Bayesian Experimental Design"]
+    items: ["Evolutionary Search", "Reinforcement Learning", "Bayesian Experimental Design"]
   - group: "Infrastructure"
-    items: ["Google Cloud", "AWS", "Slurm GPU Clusters", "Weights & Biases", "TensorBoard", "Git"]
+    items: ["Google Cloud", "AWS", "Weights & Biases", "TensorBoard", "Git"]
 ---
 {% include cv.html %}

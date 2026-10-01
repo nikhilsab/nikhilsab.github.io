@@ -35,7 +35,7 @@ reviewing:
   - role: "Conference Reviewer"
     venues: ["COLING 2025", "ARR July 2025", "ARR October 2025", "KDD Benchmark Track 2026", "NeurIPS 2026", "ICLR 2027"]
   - role: "Workshop Reviewer"
-    venues: ["ICLR 2026 Workshop on AI with Recursive Self-Improvement"]
+    venues: ["ICLR 2026 Workshop on AI with Recursive Self-Improvement", "ACM CIKM 2026 Workshop LASS"]
 
 awards:
   - "ICLR 2026 DEI Award"

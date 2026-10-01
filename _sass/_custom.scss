@@ -478,10 +478,10 @@ button:focus-visible {
   }
 }
 
-/* section headings written with ===== underlines in the markdown */
+/* section headings: ===== underlines in the markdown, or h2.section-title in templates */
 .page__content > h1,
 .archive > h1:not(.page__title),
-.page__content > ul > li > h3 {
+h2.section-title {
   margin: 2.2em 0 0.9em;
   padding-bottom: 0.45em;
   font-size: 1.2em;
@@ -492,12 +492,8 @@ button:focus-visible {
 }
 
 .page__title:empty + h1,
-.page__content > ul > li:first-child > h3 {
+h2.section-title:first-child {
   margin-top: 0;
-}
-
-.page__content > ul > li > h3 strong {
-  font-weight: inherit;
 }
 
 
@@ -530,74 +526,6 @@ button:focus-visible {
         left: 0;
       }
     }
-  }
-}
-
-
-/*
-   CV
-   ========================================================================== */
-
-#work-experience + ul {
-  padding-left: 0;
-  list-style: none;
-
-  > li {
-    margin-bottom: 1.5em;
-  }
-
-  /* the labs listed under Virginia Tech */
-  ul {
-    margin-top: 0.75em;
-    padding-left: 1.1em;
-    list-style: none;
-    border-left: 2px solid $border-color;
-
-    > li {
-      margin-bottom: 1em;
-    }
-  }
-
-  h3 {
-    margin: 0 0 0.2em;
-    font-size: 1em;
-    font-weight: 600;
-    color: $text-color;
-  }
-
-  p {
-    margin: 0;
-  }
-
-  em {
-    color: $faint-text-color;
-    font-size: 0.9em;
-  }
-}
-
-
-/*
-   Teaching page
-   ========================================================================== */
-
-/* the outer list whose items are the Teaching / Services / Awards headings */
-.page__content > ul:has(> li > h3) {
-  padding-left: 0;
-  list-style: none;
-
-  ul {
-    list-style-type: disc;
-  }
-}
-
-/* course name in full colour, term and instructor quieter */
-#teaching + ul > li {
-  margin-bottom: 0.8em;
-  color: $muted-text-color;
-  line-height: 1.5;
-
-  &::first-line {
-    color: $text-color;
   }
 }
 
@@ -740,31 +668,226 @@ button:focus-visible {
 }
 
 
+
 /*
-   CV skills: group names in a column, tools beside them
+   Tags: the pill style from the publications page, shared by CV and Teaching
    ========================================================================== */
 
-#skills + ul {
-  padding-left: 0;
+.tags {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+          align-items: center;
+  gap: 0.45em;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.22em 0.8em;
+  font-size: 0.75em;
+  font-weight: 500;
+  line-height: 1.5;
+  color: $muted-text-color;
+  white-space: nowrap;
+  background: #fff;
+  border: 1px solid darken($border-color, 6%);
+  border-radius: 999px;
+}
+
+.tag--accent {
+  color: $accent-color;
+  font-weight: 600;
+  background: $accent-tint;
+  border-color: transparent;
+}
+
+/* a label beside a row of tags (CV skills, Teaching services) */
+.tag-rows__row {
+  margin-bottom: 1em;
+
+  @include breakpoint($x-large) {
+    display: grid;
+    grid-template-columns: 16em 1fr;
+    column-gap: 1.25em;
+    margin-bottom: 0.8em;
+  }
+}
+
+.tag-rows__label {
+  margin-bottom: 0.45em;
+  font-size: 0.95em;
+  font-weight: 600;
+  color: $text-color;
+
+  @include breakpoint($x-large) {
+    margin-bottom: 0;
+    white-space: nowrap;
+  }
+}
+
+
+/*
+   CV: entries on a timeline
+   ========================================================================== */
+
+.timeline {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 30px;
   list-style: none;
 
+  /* the rail */
+  &:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 6px;
+    width: 2px;
+    border-radius: 2px;
+    background: $border-color;
+  }
+}
+
+.timeline__item {
+  position: relative;
+  margin: 0;
+  padding-bottom: 1.6em;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  /* the dot on the rail */
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0.4em;
+    left: -29px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid $accent-color;
+    border-radius: 50%;
+    background: #fff;
+    box-sizing: border-box;
+  }
+
+  .tags {
+    margin-top: 0.6em;
+  }
+}
+
+.timeline__title {
+  margin: 0 0 0.2em;
+  font-size: 1.02em;
+  font-weight: 600;
+  line-height: 1.4;
+  color: $text-color;
+}
+
+.timeline .timeline__sub {
+  margin: 0;
+  font-size: 0.92em;
+  color: $muted-text-color;
+}
+
+.timeline .timeline__note {
+  margin: 0.15em 0 0;
+  font-size: 0.85em;
+  color: $faint-text-color;
+}
+
+/* the labs under Virginia Tech, as small cards */
+ul.timeline__groups {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75em;
+  margin: 0.7em 0 0;
+  padding: 0;
+  list-style: none;
+
+  @include breakpoint($small) {
+    grid-template-columns: 1fr 1fr;
+  }
+
   > li {
-    margin-bottom: 0.7em;
+    margin: 0;
+    padding: 0.75em 0.95em 0.8em;
+    border: 1px solid $border-color;
+    border-radius: 12px;
+  }
+}
 
-    > strong:first-child {
-      color: $text-color;
+.timeline__group {
+  margin: 0 0 0.2em;
+  font-size: 0.95em;
+  font-weight: 600;
+  line-height: 1.35;
+  color: $text-color;
+}
+
+
+/*
+   Teaching: courses listed like the publications page
+   ========================================================================== */
+
+.course {
+  padding: 1.15em 0 1.25em;
+
+  & + .course {
+    border-top: 1px solid $border-color;
+  }
+
+  .course__name {
+    margin: 0 0 0.35em;
+    font-size: 1.02em;
+    font-weight: 600;
+    line-height: 1.4;
+    color: $text-color;
+  }
+
+  .course__who {
+    margin: 0 0 0.75em;
+    font-size: 0.88em;
+    line-height: 1.55;
+    color: $muted-text-color;
+
+    i {
+      margin-right: 0.5em;
+      font-size: 0.9em;
+      color: $faint-text-color;
     }
+  }
+}
 
-    /* wide screens only; narrower ones keep the name inline with the tools */
-    @include breakpoint($x-large) {
-      display: grid;
-      grid-template-columns: 17.5em 1fr;
-      column-gap: 1.25em;
-      margin-bottom: 0.55em;
+.teaching > h2.section-title:first-child {
+  margin-top: 1.4em;
+}
 
-      > strong:first-child {
-        white-space: nowrap;
-      }
-    }
+.cv,
+.teaching {
+  padding-bottom: 1.5em;
+}
+
+ul.awards {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: baseline;
+            align-items: baseline;
+    gap: 0.7em;
+    margin-bottom: 0.6em;
+  }
+
+  i {
+    width: 1em;
+    font-size: 0.9em;
+    text-align: center;
+    color: $accent-color;
   }
 }

@@ -1,0 +1,27 @@
+<div class="teaching">
+<h2 class="section-title" id="teaching">Teaching</h2>
+<div class="course-list">
+{%- for c in page.courses %}
+<article class="course">
+<h3 class="course__name">{{ c.name }}</h3>
+<p class="course__who"><i class="fas fa-user-tie" aria-hidden="true"></i>{{ c.instructor }}</p>
+<div class="tags"><span class="tag tag--accent">{{ c.code }}</span>{% assign terms = c.term | split: ", " %}{% for t in terms %}<span class="tag">{{ t }}</span>{% endfor %}</div>
+</article>
+{%- endfor %}
+</div>
+<h2 class="section-title" id="services">Services</h2>
+<div class="tag-rows">
+{%- for r in page.reviewing %}
+<div class="tag-rows__row">
+<div class="tag-rows__label">{{ r.role }}</div>
+<div class="tags">{% for v in r.venues %}<span class="tag">{{ v }}</span>{% endfor %}</div>
+</div>
+{%- endfor %}
+</div>
+<h2 class="section-title" id="awards">Awards</h2>
+<ul class="awards">
+{%- for a in page.awards %}
+<li><i class="fas fa-award" aria-hidden="true"></i><span>{{ a }}</span></li>
+{%- endfor %}
+</ul>
+</div>

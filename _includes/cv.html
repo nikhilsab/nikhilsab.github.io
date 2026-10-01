@@ -1,0 +1,49 @@
+<div class="cv">
+<h2 class="section-title" id="education">Education</h2>
+<ol class="timeline">
+{%- for e in page.education %}
+<li class="timeline__item">
+<h3 class="timeline__title">{{ e.degree }}</h3>
+<p class="timeline__sub">{{ e.school }}</p>
+<div class="tags"><span class="tag tag--accent">{{ e.year }}</span></div>
+</li>
+{%- endfor %}
+</ol>
+<h2 class="section-title" id="work-experience">Work experience</h2>
+<ol class="timeline">
+{%- for x in page.experience %}
+<li class="timeline__item">
+<h3 class="timeline__title">{{ x.org }}</h3>
+{%- if x.role %}
+<p class="timeline__sub">{{ x.role }}</p>
+{%- endif %}
+{%- if x.advisor %}
+<p class="timeline__note">Advisor: {{ x.advisor | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+{%- endif %}
+{%- if x.groups %}
+<ul class="timeline__groups">
+{%- for g in x.groups %}
+<li>
+<h4 class="timeline__group">{{ g.name }}</h4>
+<p class="timeline__sub">{{ g.role }}</p>
+<p class="timeline__note">Advisor: {{ g.advisor }}</p>
+</li>
+{%- endfor %}
+</ul>
+{%- endif %}
+{%- if x.dates %}
+<div class="tags">{% for d in x.dates %}<span class="tag tag--accent">{{ d }}</span>{% endfor %}</div>
+{%- endif %}
+</li>
+{%- endfor %}
+</ol>
+<h2 class="section-title" id="skills">Skills</h2>
+<div class="tag-rows">
+{%- for s in page.skills %}
+<div class="tag-rows__row">
+<div class="tag-rows__label">{{ s.group }}</div>
+<div class="tags">{% for i in s.items %}<span class="tag">{{ i }}</span>{% endfor %}</div>
+</div>
+{%- endfor %}
+</div>
+</div>

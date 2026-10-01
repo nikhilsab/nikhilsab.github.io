@@ -49,7 +49,4 @@ Skills
 * **Deep Learning Frameworks:** PyTorch, TensorFlow, Keras, Hugging Face
 * **LLMs:** OpenAI, Claude, Gemini, AWS Bedrock, Qwen, DeepSeek
 * **Optimization & Decision-Making:** Evolutionary Search, Monte Carlo Tree Search, Reinforcement Learning, Bayesian Experimental Design
-* **Scientific ML:** Symbolic Regression and Equation Discovery (PySR, PySINDy, SymPy), ODE Modeling (SciPy)
-* **Materials & Chemistry:** pymatgen, ASE, Materials Project API, JARVIS, Graph-Network Property Models (M3GNet, MEGNet, ALIGNN, CGCNN), RDKit
-* **Tabular Data & SQL:** pandas, scikit-learn, XGBoost, LightGBM, CatBoost, SQLite, SQLAlchemy, sqlglot, BlendSQL
 * **Infrastructure:** Google Cloud, AWS, Slurm GPU Clusters, Weights & Biases, TensorBoard, Git

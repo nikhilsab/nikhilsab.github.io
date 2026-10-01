@@ -1,0 +1,43 @@
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" | strip %}
+{% assign venue_url = post.venueurl | default: post.venureurl %}
+
+{% comment %}<!-- highlight my name in the author list, in both "First Last" and "F. Last" forms -->{% endcomment %}
+{% assign name_parts = site.author.name | split: " " %}
+{% capture short_name %}{{ name_parts.first | slice: 0 }}. {{ name_parts.last }}{% endcapture %}
+{% capture me_full %}<span class="pub__me">{{ site.author.name }}</span>{% endcapture %}
+{% capture me_short %}<span class="pub__me">{{ short_name }}</span>{% endcapture %}
+{% assign authors = post.authors | replace: site.author.name, me_full | replace: short_name, me_short %}
+
+<article class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+  <h3 class="pub__title" itemprop="headline">
+    {% if post.paperurl %}<a href="{{ post.paperurl }}">{{ title }}</a>{% else %}{{ title }}{% endif %}
+  </h3>
+
+  {% if post.authors %}<p class="pub__authors">{{ authors }}</p>{% endif %}
+
+  <div class="pub__meta">
+    {% if post.venue %}
+      {% capture venue %}{{ post.venue }}{% if post.venuetype == 'journal' %}, {{ post.date | default: "1900-01-01" | date: "%B %Y" }}{% endif %}{% endcapture %}
+      {% if venue_url %}
+      <a class="pub__venue" href="{{ venue_url }}">{{ venue }}</a>
+      {% else %}
+      <span class="pub__venue">{{ venue }}</span>
+      {% endif %}
+    {% endif %}
+    {% if post.paperurl %}
+    <a class="pub__link" href="{{ post.paperurl }}"><i class="fas fa-file-alt" aria-hidden="true"></i>Paper</a>
+    {% endif %}
+    {% if post.code %}
+    <a class="pub__link" href="{{ post.code }}"><i class="fas fa-code" aria-hidden="true"></i>Code</a>
+    {% endif %}
+    {% if post.github %}
+    <a class="pub__link" href="{{ post.github }}"><i class="fab fa-github" aria-hidden="true"></i>Code</a>
+    {% endif %}
+    {% if post.video %}
+    <a class="pub__link" href="{{ post.video }}"><i class="fas fa-play" aria-hidden="true"></i>{{ post.videoname | default: "Video" }}</a>
+    {% endif %}
+  </div>
+
+  {% assign excerpt = post.excerpt | strip_html | strip %}
+  {% if excerpt != "" %}<p class="pub__excerpt">{{ excerpt }}</p>{% endif %}
+</article>

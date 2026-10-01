@@ -57,8 +57,15 @@
       $background-color           : #fff;
       $code-background-color      : #fafafa;
       $code-background-color-dark : $light-gray;
-      $text-color                 : $darker-gray;
-      $border-color               : $lighter-gray;
+      $text-color                 : #1f2328;
+      $border-color               : #e6e8eb;
+
+      /* softer text shades and the accent tint used by the custom styles */
+      $muted-text-color           : #59636e;
+      $faint-text-color           : #8a929b;
+      $subtle-background-color    : #f6f8fa;
+      $accent-color               : #26598c;
+      $accent-tint                : #edf3f9;
       
       $primary-color              : #7a8288;
       $success-color              : #62c462;
@@ -93,12 +100,22 @@
       $xing-color                 : #006567;
       
       
+      /* navy top bar and left profile pane */
+      $navy                       : #232f3e; // Amazon "squid ink"
+      $navy-text                  : #eef3f8;
+      $navy-muted-text            : #b6c4d4;
+      $navy-faint-text            : #8a9eb5;
+      $navy-highlight             : #a9d3ef;
+      $gold                       : #e2b33c; // the name only
+      $navy-line                  : rgba(255, 255, 255, 0.1);
+      $pane-width                 : 17rem;
+
       /* links */
-      $link-color                 : #32506d;
-      $link-color-hover           : mix(#000, $link-color, 25%);
+      $link-color                 : $accent-color;
+      $link-color-hover           : mix(#000, $link-color, 30%);
       $link-color-visited         : mix(#fff, $link-color, 25%);
-      $masthead-link-color        : $primary-color;
-      $masthead-link-color-hover  : mix(#fff, $link-color, 25%);
+      $masthead-link-color        : $navy-muted-text;
+      $masthead-link-color-hover  : $navy-highlight;
    
    
    /*
